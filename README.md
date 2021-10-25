@@ -23,11 +23,17 @@
   
 #安装步骤：
 1、设置BIOS;
+
 ?Boot sequence -> UEFI
+
 ?Advanced Boot Options -> Uncheck Enable Legacy Option ROMs - (only if graphics are UEFI capable)
+
 ?Serial Port -> Disabled
+
 ?Sata Operation -> AHCI
+
 ?Integrated NIC -> Enabled
+
 ?Secure Boot -> Disabled
 
 2、制作安装镜像
