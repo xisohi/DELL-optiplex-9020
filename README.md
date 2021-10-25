@@ -29,8 +29,17 @@
 ?Sata Operation -> AHCI
 ?Integrated NIC -> Enabled
 ?Secure Boot -> Disabled
+
 2、制作安装镜像
+
 镜像制作：下载etcher，打开镜像，选择U盘，点击Flash即可etcher
-![Uploading image.png…]()
+
 安装镜像的制作到这里就完成了,下一步,我们需要将EFI复制进刚制作好的USB磁盘的EFI分区里
-?Secure Boot -> Disabled
+
+3、将EFI复制到USB安装盘的EFI分区下替换
+
+4、电脑U盘启动并安装系统；
+
+5、如声音不正常将注入改为21
+
+6、愉快的玩耍吧！！
